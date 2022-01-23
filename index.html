@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Forlingua</title>
+
+		<meta name="description" content="A Forlingua Website">
+		<meta name="author" content="Andika Nur Fadhilah">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/blood.css" id="theme">
+		<link rel="stylesheet" href="dist/wa/floating-wpp.min.css"> 
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section data-auto-animate data-background-image="img/rubick.gif" data-background-opacity="0.05">
+						<p class="r-fit-text">Ever try to translate this bold phrase?</p>
+						<p class="r-fit-text"> </p>
+				</section>
+				<section data-auto-animate data-background-image="img/rubick.gif" data-background-opacity="0.05">
+						<p class="r-fit-text">Ever try to translate this bold phrase?</p>
+						<p class="r-fit-text">"What happened at Claire's party last night? <b>spill the tea</b>"</p>
+				</section>
+				<section data-auto-animate data-background-image="img/rubick.gif" data-background-opacity="0.05">
+					<audio data-autoplay src="audio/wrong.mp3"></audio>
+						<p class="r-fit-text">Ever try to translate this bold phrase?</p>
+						<p class="r-fit-text">"What happened at Claire's party last night? <b>spill the tea</b>"</p>
+						<p class="r-fit-text">What you got from translation machine</p>
+						<p class="r-fit-text" style="color:red"><b>menumpahkan teh</b> ❌</p>
+				</section>
+				<section data-auto-animate data-background-image="img/rubick.gif">
+					<audio data-autoplay src="audio/correct.mp3"></audio>
+						<p class="r-fit-text">Ever try to translate this bold phrase?</p>
+						<p class="r-fit-text">"What happened at Claire's party last night? <b>spill the tea</b>"</p>
+						<p class="r-fit-text">What will you got from Forlingua</p>
+						<p class="r-fit-text" style="color:green; background-color: #ffffffb5;"><b>menyebarkan gosip</b> ✅</p>
+				</section>
+
+				<section data-auto-animate>
+					<p class="r-fit-text">Looking for an English ⇌ Bahasa translate solution? 🔍</p>
+				</section>
+				<section data-auto-animate>
+					<p class="r-fit-text">Looking for an English ⇌ Bahasa translate solution? 🔍</p>
+					<p class="r-fit-text">Congrats, you've landed on the right place 🎉</p>
+				</section>
+				<section data-auto-animate>
+					<p class="r-fit-text">We are <b>Forlingua</b></p>
+					<p class="r-fit-text">Who have handled over 10 satisfied customers 😄</p>
+					<p class="r-fit-text">And various document types 📚</p>
+				</section>
+
+				<section data-background-image="img/satisfied.jpeg" data-background-opacity="0.2">
+					<section>
+						<p class="r-fit-text">What they think about us?</p>
+						<p class="r-fit-text">⬇️⬇️⬇️⬇️⬇️ Scroll down ⬇️⬇️⬇️⬇️⬇️</p>
+					</section>
+					<section>
+						<p class="r-fit-text">Amazing!</p>
+						<h4><img src="img/user2-160x160.jpg" style="height:50px; margin:0;" class="img-circle" alt="User Image">  Anonim 1</h4>
+					</section>
+					<section>
+						<p class="r-fit-text">They submit the result on time</p>
+						<h4><img src="img/user8-128x128.jpg" style="height:50px; margin:0;" class="img-circle" alt="User Image">  Anonim 2</h4>
+					</section>
+					<section>
+						<p class="r-fit-text">I got my assignment perfectly done :D</p>
+						<h4>Anonim 3</h4>
+					</section>
+				</section>
+
+				<section data-background-image="img/cs.jpeg" data-background-opacity="0.1">
+					<a class="r-fit-text" style="color:green" href="https://wa.me/+6281218832950">Click me to<br>catch us on WhatsApp</a>
+				</section>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/wa/floating-wpp.min.js"></script>
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				center: true,
+				hash: false,
+				backgroundTransition: 'fade',
+				dataTransition: 'fade',
+				slideTransition: 'fade',
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+           $('#WAButton').floatingWhatsApp({
+               phone: '+6281218832950', //WhatsApp Business phone number
+    headerTitle: 'Chat with us on WhatsApp!', //Popup Title
+    popupMessage: 'Hello, how can we help you?', //Popup Message
+    showPopup: true, //Enables popup display
+    buttonImage: '<img src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/whatsapp.svg" />', //Button Image
+    //headerColor: 'crimson', //Custom header color
+    //backgroundColor: 'crimson', //Custom background button color
+    position: "right" 
+
+           });
+
+		</script>
+
+	</body>
+</html>
